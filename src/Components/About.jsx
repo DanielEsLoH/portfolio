@@ -16,9 +16,9 @@ const About = () => {
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
               <a
-                href="src/assets/_CurrículumDanielLondoño.pdf"
-                download="_CurrículumDanielLondoño.pdf"
                 className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white border-2 hover:bg-fuchsia-800 border-fuchsia-800 rounded-lg p-4 px-8 uppercase relative overflow-hidden"
+                href="https://drive.google.com/file/d/1YRQhCWF8aberrwXUyia08towkjhXaPFM/view?usp=drive_link"
+                target='_blank'
               >
                 Resume
               </a>
