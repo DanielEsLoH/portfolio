@@ -34,7 +34,7 @@ const Projects = () => {
             <a href="https://github.com/DanielEsLoH/course-rails" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                 <AiFillGithub className="text-[28px]" />
             </a>
-            <a href="https://survey-rails.fly.dev/" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+            <a href="https://surveyrails.fly.dev/" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                 <FaGlobe className="text-[28px]" />
             </a>
           </div>
