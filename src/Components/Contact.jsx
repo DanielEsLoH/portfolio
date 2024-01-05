@@ -14,7 +14,10 @@ const Contact = () => {
     const apikey = "ktLre9NU1NvG9yAqa";
 
     emailjs.sendForm(serviceId, templateID, refForm.current, apikey)
-      .then( result => console.log(result.text))
+      .then( result => {
+        console.log(result.text);
+        refForm.current.reset(); // Limpia el formulario después de enviarlo
+      })
       .catch( error => console.error(error))
   }
 

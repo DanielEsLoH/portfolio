@@ -2,23 +2,29 @@ import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
+import rails from '../assets/rails.png'
 const Footer = () => {
   return (
     <footer className="bg-slate-800 text-white lg:px-48 px-4 py-20">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4">
         <div className="mb-4 md:mb-0">
-          <span className="text-3xl font-semibold text-fuchsia-800 py-2 uppercase">Logo</span>
+          <span className="text-3xl font-semibold text-fuchsia-800 py-2 uppercase">
+            <img src={rails} width={40} height={40} />
+          </span>
           <p className="text-[16px] my-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero animi expedita nesciunt quasi culpa? Illo expedita
+            Don't forget to contact me <br />
+            if you are interested in <br />
+            working with me. <br />
           </p>
         </div>
         <div>
           <h2 className="text-[22px] font-semibold text-fuchsia-800 py-2 uppercase">Services</h2>
           <ul className="text-[16px] my-4">
-            <li className="my-2">Web Design</li>
             <li className="my-2">Web Development</li>
-            <li className="my-2">SEO</li>
+            <li className="my-2">Web Design</li>
             <li className="my-2">E-commerce</li>
+            <li className="my-2">API</li>
+            <li className='my-2'>Database</li>
           </ul>
         </div>
         <div className="mb-4 md:mb-0">
