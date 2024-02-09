@@ -1,7 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
 import { FiTwitter } from "react-icons/fi";
-import img from '../assets/Daniel.png';
+import img from '../assets/Daniel-1.jpg';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Aos from "aos";
