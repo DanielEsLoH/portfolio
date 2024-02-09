@@ -33,7 +33,7 @@ const App = () => {
           />
         </div>
         :
-        <div className="bg-slate-900 element">
+        <div className="bg-slate-900">
           <Nav />
           <Banner />
           <About />
