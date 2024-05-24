@@ -21,7 +21,7 @@ const Projects = () => {
             <a href="https://github.com/DanielEsLoH/super_blog" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                 <AiFillGithub className="text-[28px]" />
             </a>
-            <a href="https://superblog-15.fly.dev/" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+            <a href="https://super-blog.fly.dev/" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                 <FaGlobe className="text-[28px]" />
             </a>
           </div>
