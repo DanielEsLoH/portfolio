@@ -14,7 +14,7 @@ const Banner = () => {
     <div id="Home" data-aos="fade-up" className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome to <span className="text-fuchsia-500">My Website</span></h1>
-        <p data-aos="fade-left">
+        <p data-aos="fade-left" className="text-justify">
           Thank you for wanting to know more about my work, here you can find some of the projects that he managed to develop, 
           also interact with the web pages through the links that are pinned and finally contact me to start working with them.
         </p>
