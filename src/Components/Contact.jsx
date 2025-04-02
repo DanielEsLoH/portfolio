@@ -28,12 +28,12 @@ const Contact = () => {
     <div id="Contact" className="p-4 lg:p-20 flex flex-col items-center justify-center">
       <h1 data-aos="fade-left" className="text-[52px] font-semibold mb-8 leading-normal text-fuchsia-500 uppercase">Contact Me</h1>
       <form ref={refForm} action="" onSubmit={handleSubmit} className="flex flex-col gap-2 lg:w-1/2">
-        <div className="lg:flex gap-9 ">
+        <div data-aos="fade-right" className="lg:flex gap-9">
           <input className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500" placeholder="Enter Your Name" type="text" name="username"  required/>
           <input className="w-full lg:my-3 my-4 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500" placeholder="Enter Your Email" type="email" name="email" required />
         </div>
-        <textarea className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500" placeholder="Write You Message..." name="message" id="" cols="30" rows="10" required></textarea>
-        <button className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white bg-fuchsia-800 hover:bg-slate-900 rounded-lg p-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold" type="submit">Submit</button>
+        <textarea data-aos="fade-left" className="w-full my-3 rounded-lg bg-slate-800 p-4 border-2 border-fuchsia-800 b_glow text-xl text-slate-500" placeholder="Write You Message..." name="message" id="" cols="30" rows="10" required></textarea>
+        <button data-aos="fade-right" className="neno-button shadow-xl hover:shadow-fuchsia-800/50 text-white bg-fuchsia-800 hover:bg-slate-900 rounded-lg p-4 px-8 my-6 uppercase relative overflow-hidden b_glow text-xl text-bold" type="submit">Submit</button>
       </form>
     </div>
   );

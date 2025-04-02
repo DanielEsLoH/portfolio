@@ -1,7 +1,7 @@
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa';
-import { FaTwitter } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
+import { FaXTwitter } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import rails from '../assets/rails.png'
 const Footer = () => {
   return (
@@ -42,10 +42,10 @@ const Footer = () => {
               <FaLinkedinIn/>
             </a>
             <a className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out' href="https://twitter.com/Daniel_EsLoH" target="_blank">
-              <FaTwitter/>
+              <FaXTwitter />
             </a>
-            <a className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out' href="https://www.instagram.com/daniel_eslonh/" target="_blank">
-              <FaInstagram/>
+            <a className='text-white hover:text-fuchsia-800 transition-all duration-150 ease-in-out' href="https://wa.me/573108563748" target="_blank">
+              <FaWhatsapp />
             </a>
           </div>
         </div>

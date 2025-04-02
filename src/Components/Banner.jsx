@@ -1,6 +1,7 @@
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaInstagram } from "react-icons/fa";
-import { FiTwitter } from "react-icons/fi";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa";
 import img from '../assets/Daniel-1.jpg';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -14,7 +15,7 @@ const Banner = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
         <h1 data-aos="fade-right" className="text-[52px] font-semibold mb-8 leading-normal uppercase">Welcome to <span className="text-fuchsia-500">My Website</span></h1>
         <p data-aos="fade-left">
-          Thank you for wanting to know more about my work, here you can find several of the projects that he managed to develop, 
+          Thank you for wanting to know more about my work, here you can find some of the projects that he managed to develop, 
           also interact with the web pages through the links that are pinned and finally contact me to start working with them.
         </p>
         <div className="flex mt-8 gap-2">
@@ -27,10 +28,10 @@ const Banner = () => {
                 <FaLinkedinIn className="text-[28px]" />
               </a>
               <a href="https://twitter.com/Daniel_EsLoH" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
-                <FiTwitter className="text-[28px]" />
+                <FaXTwitter className="text-[28px]" />
               </a>
-              <a href="https://www.instagram.com/daniel_eslonh/" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
-                <FaInstagram className="text-[28px]" />
+              <a href="https://wa.me/573108563748" target="_blank" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                <FaWhatsapp className="text-[28px]" />
               </a>
             </div>
           </div>
