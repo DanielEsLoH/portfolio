@@ -19,7 +19,7 @@ const About = () => {
                 border-fuchsia-800 rounded-lg p-4 px-8 
                 uppercase relative overflow-hidden  hover:text-black
               "
-              href="https://drive.google.com/file/d/1YRQhCWF8aberrwXUyia08towkjhXaPFM/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1KSgewToFW30DZS87OG9e_edhrgKhacLd/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
